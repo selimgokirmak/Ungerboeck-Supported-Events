@@ -1,22 +1,205 @@
 ## 🤖 [Ungerboeck Exhibitor List Scraper](https://apify.com/skython/ungerboeck-exhibitor-list-scraper)
 
-Simple web scraper for extracting exhibitor data from trade show exhibitor lists provided by **Ungerboeck**. 
+Simple web scraper for extracting exhibitor data from trade show exhibitor lists provided by **Ungerboeck**. Easily scrape company profiles including **company details, website, social media links, product categories, and more**. 
 
-Easily scrape company profiles including **company details, website, social media links, product categories, and more**. 
+Ideal for **B2B lead generation, market research, event networking, and competitive analysis**. Supports multiple **Ungerboeck** exhibition websites with a consistent HTML structure.
 
-Ideal for **B2B lead generation, market research, event networking, and competitive analysis**. 
+> [Apify](https://apify.com/) is a cloud platform and marketplace for web scraping and automation tools.
 
-Supports multiple **Ungerboeck** exhibition websites with a consistent HTML structure.
+---
 
+## Contents
 
-## 🔎 Testing Exhibitor List URLs for FREE
+- [Features](#features)
+
+- [Use Cases](#use-cases)
+
+- [Supported Website Structure](#supported-website-structure)
+
+- [Supported Ungerboeck Events (Exhibitor Lists)](#supported-ungerboeck-events-exhibitor-lists)
+
+- [Testing Exhibitor List URLs](#testing-exhibitor-list-urls-for-free)
+
+- [Exhibitor List Scraper - All-In-One Version](#exhibitor-list-scraper---all-in-one-version)
+
+- [Data Fields](#data-fields)
+
+- [Example Output](#example-output)
+
+- [My Other Exhibitor List Scrapers](#my-other-exhibitor-list-scrapers)
+
+---
+
+## Features
+
+- Scrape all exhibitor profiles from supported Ungerboeck event websites
+
+- Extract detailed data from every exhibitor profile page
+
+- Company primary information (address, email, phone, website)
+
+- Social media links (LinkedIn, Facebook, Instagram, Twitter, YouTube)
+
+- Two output formats (Single-Row & Multi-Row)
+
+- Multi-Row format for Excel-friendly product category filtering
+
+- Export to JSON, CSV, and Excel
+
+---
+
+## Use Cases
+
+- **B2B Lead Generation:** Build targeted contact lists for marketing and sales outreach. 
+
+- **Market Research:** Analyze exhibitors by product categories, brands, and sectors.  
+
+- **Event Networking:** Familiarize yourself with exhibitors before attending trade fairs.  
+
+- **Competitive Analysis:** Track competitor participation and product focus areas.
+
+---
+
+## Supported Website Structure
+
+- This scraper is designed to extract data from exhibitor directories with the same HTML structure as the supported Ungerboeck exhibitor lists below.
+
+- Take a look at some of the event websites from the below list. Your event website URL might be in that list.
+
+- If you are not sure about if this actor is capable of scraping your event URL, test it with [**Exhibitor List Scrapers URL Tester**](https://apify.com/skython/exhibitor-list-scrapers-router) actor.
+
+---
+
+## Supported Ungerboeck Events (Exhibitor Lists)
+
+- The following partial list includes Ungerboeck exhibitor directory URLs that have been tested so far. Other Ungerboeck events or different events with the same website structure may also be supported.
+
+- Some event URLs may have been updated or canceled entirely; please check them before using.
+
+- [SC26 Chicago Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=337677594373777a4156615838445849366d7042356245527458414a394c7755685656754c6770492b31773d)
+
+- [SAFETY26 Anaheim Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=52384e496e7157352b7930487948414d316c6a346b4e75524b686a61426a616662725739343171786a38513d)
+
+- [2026 MRS Spring Meeting & Exhibit Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=6c6e39656251476c366462314b426d304f41544b7a67764861467058626a4533334d376d2f385a444374673d)
+
+- [INTA 2026 London Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=3379544376552f73416f452f435a4f515948656f394e44484855394e71444c6c6c456b67345777302f4e733d)
+
+- [CVPR 2026 Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=6c4b6e7a4f443579675a335036524356512b53546e775a3532584f416d6a656c726c483332464156314e343d)
+
+- [NAHB International Builders' Show 2026  Exhibitor List](https://nahb.ungerboeck.net/prod/app85.cshtml?aat=5344474268727238635364553030464a57716e4447757074476e7a4b58464a7459707064456d43725578453d)
+
+- [Internationale Handwerksmesse / Garten München / Handwerk & Design / FOOD & LIFE (Frühjahr) 2026  Exhibitor List](https://ghm.ungerboeck.com/PROD/app85.cshtml?aat=4751736b56484a5641793075523678716651774f6c357473566b71464134564e36796465687455303669303d)
+
+- [Heim+Handwerk / FOOD & LIFE 2025  Exhibitor List](https://ghm.ungerboeck.com/PROD/app85.cshtml?aat=682f74424b6152374f45724b514b485235726253535777704a4b366d314b697a6550394567627745794a593d)
+
+---
+
+## Testing Exhibitor List URLs for FREE
 
 - Since I have multiple exhibitor list scraper actors for different types of trade event websites, it might be hard to find the correct actor for your exhibitor list URL.
 
 - Use [**Exhibitor List Scrapers URL Tester**](https://apify.com/skython/exhibitor-list-scrapers-router) actor to test your exhibitor list URLs **for FREE** and see which scraper can process them.
 
+---
 
-## 👇 Check My Other Exhibitor List Scrapers
+## Exhibitor List Scraper - All-In-One Version
+
+- I also provide an **All-In-One** version that combines **my 30+ exhibitor list scrapers** into a single actor.
+
+- Instead of searching for the correct scraper for each event URL, simply provide the event URL and the actor automatically selects the appropriate scraper.
+
+- ➡️ [Exhibitor List Scraper - All-In-One](https://apify.com/skython/exhibitor-list-scraper)
+
+---
+
+## Data Fields
+
+<table>
+  <thead>
+    <tr>
+    <th><span style="font-size:14px;">Company</span></th>
+    <th><span style="font-size:14px;">Social</span></th>
+    <th><span style="font-size:14px;">Additional</span></th>
+    </tr>
+  </thead>
+    <tbody>
+        <tr>
+            <td>Profile URL</td>
+            <td>LinkedIn</td>
+            <td>Hall Stands</td>
+        </tr>
+        <tr>
+            <td>Company Name</td>
+            <td>Facebook</td>
+            <td>Hall Stand Sizes</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>Instagram</td>
+            <td>Product Categories</td>
+        </tr>
+        <tr>
+            <td>Website</td>
+            <td>Twitter / X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>YouTube</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+## Example Output
+
+```json
+{
+  "___exhibitor_profile_url": "https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=52384e496e7157352b7930487948414d316c6a346b4e75524b686a61426a616662725739343171786a38513d&ExhibitorID=18831",
+  "__company_name": "Airgas, an Air Liquide company",
+  "_company_address": "Radnor, PA, 19087, United States",
+  "_company_country": "United States",
+  "_company_website": "www.airgas.com",
+  "_hall_stands": "5711",
+  "_social_url_linkedin": "https://www.linkedin.com/company/airgas/",
+  "_social_url_facebook": "https://www.facebook.com/airgasusa",
+  "_social_url_instagram": "https://www.instagram.com/airgas",
+  "_social_url_twitter": "https://twitter.com/airgas",
+  "_hall_stands_sizes": [
+    {
+      "_booth_title": "5711",
+      "area": 800,
+      "height": 0,
+      "length": 40,
+      "width": 20,
+      "open_sides": 4
+    }
+  ],
+  "product_categories": [
+    "Regulatory Compliance",
+    "Industrial Hygiene",
+    "Heat Stress / Relief",
+    "Fire and Hazard Protection",
+    "Fall Protection/Working at Height",
+    "Ergonomics",
+    "Emergency Services",
+    "Worksite Safety (Confined Spaces/LOTO)",
+    "Facility Safety",
+    "Personal Protective Equipment (PPE)"
+  ]
+}
+```
+
+---
+
+## My Other Exhibitor List Scrapers
 
 - [Exhibitor List Scraper - All-In-One](https://apify.com/skython/exhibitor-list-scraper)
 
@@ -52,8 +235,6 @@ Supports multiple **Ungerboeck** exhibition websites with a consistent HTML stru
 
 - [Informa Markets Exhibitor List Scraper V2](https://apify.com/skython/informa-markets-exhibitor-list-scraper-2)
 
-- [Ungerboeck Exhibitor List Scraper](https://apify.com/skython/ungerboeck-exhibitor-list-scraper)
-
 - [A2Z Events Exhibitor List Scraper](https://apify.com/skython/a2z-events-exhibitor-list-scraper)
 
 - [Deutsche Messe Exhibitor List Scraper](https://apify.com/skython/deutsche-messe-exhibitor-list-scraper)
@@ -62,34 +243,22 @@ Supports multiple **Ungerboeck** exhibition websites with a consistent HTML stru
 
 - [Goeshow Exhibitor List Scraper](https://apify.com/skython/goeshow-exhibitor-list-scraper)
 
+- [EasyFairs Exhibitor List Scraper](https://apify.com/skython/easyfairs-exhibitor-list-scraper)
 
-## 🎯 Supported Website Structure
+- [IEG Expo Exhibitor List Scraper](https://apify.com/skython/ieg-expo-exhibitor-list-scraper)
 
-- This scraper is designed to extract data from exhibitor directories with the same HTML structure as the supported Ungerboeck exhibitor lists below.
+- [The Smarter E Exhibitor List Scraper](https://apify.com/skython/the-smarter-e-exhibitor-list-scraper)
 
-- Take a look at some of the event websites from the below list. Your event website URL might be in that list.
+- [Schall Messen Exhibitor List Scraper](https://apify.com/skython/schall-messen-exhibitor-list-scraper)
 
-- If you are not sure about if this actor is capable of scraping your event URL, test it with [**Exhibitor List Scrapers URL Tester**](https://apify.com/skython/exhibitor-list-scrapers-router) actor.
+- [Messe München Exhibitor List Scraper V2](https://apify.com/skython/messe-muenchen-exhibitor-list-scraper-2)
 
+- [Comexposium Exhibitor List Scraper](https://apify.com/skython/comexposium-exhibitor-list-scraper)
 
-## 🌐 Supported Ungerboeck Events (Exhibitor Lists)
+- [IME Events Exhibitor List Scraper](https://apify.com/skython/ime-events-exhibitor-list-scraper)
 
-**Note:** *The following partial list includes Ungerboeck exhibitor directory URLs that have been tested so far. Other Ungerboeck or different events with the same website structure may also be supported.*
+- [ANDMORE Exhibitor List Scraper](https://apify.com/skython/andmore-exhibitor-list-scraper)
 
-- [SC26 Chicago Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=337677594373777a4156615838445849366d7042356245527458414a394c7755685656754c6770492b31773d)
+- [Comexposium Exhibitor List Scraper V2](https://apify.com/skython/comexposium-exhibitor-list-scraper-2)
 
-- [AANA 2026 Annual Congress Exhibitor List](https://mma-inc.ungerboeck.com/prod/app85.cshtml?aat=58497969507a5168705475735663633934376b347356556d6a4558516d45765476357a4d764a74415a75413d)
-
-- [SAFETY26 Anaheim Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=52384e496e7157352b7930487948414d316c6a346b4e75524b686a61426a616662725739343171786a38513d)
-
-- [2026 MRS Spring Meeting & Exhibit Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=6c6e39656251476c366462314b426d304f41544b7a67764861467058626a4533334d376d2f385a444374673d)
-
-- [INTA 2026 London Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=3379544376552f73416f452f435a4f515948656f394e44484855394e71444c6c6c456b67345777302f4e733d)
-
-- [CVPR 2026 Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=6c4b6e7a4f443579675a335036524356512b53546e775a3532584f416d6a656c726c483332464156314e343d)
-
-- [NAHB International Builders' Show 2026  Exhibitor List](https://nahb.ungerboeck.net/prod/app85.cshtml?aat=5344474268727238635364553030464a57716e4447757074476e7a4b58464a7459707064456d43725578453d)
-
-- [Internationale Handwerksmesse / Garten München / Handwerk & Design / FOOD & LIFE (Frühjahr) 2026  Exhibitor List](https://ghm.ungerboeck.com/PROD/app85.cshtml?aat=4751736b56484a5641793075523678716651774f6c357473566b71464134564e36796465687455303669303d)
-
-- [Heim+Handwerk / FOOD & LIFE 2025  Exhibitor List](https://ghm.ungerboeck.com/PROD/app85.cshtml?aat=682f74424b6152374f45724b514b485235726253535777704a4b366d314b697a6550394567627745794a593d)
+- [Informa Markets Exhibitor List Scraper V3](https://apify.com/skython/informa-markets-exhibitor-list-scraper-3)
