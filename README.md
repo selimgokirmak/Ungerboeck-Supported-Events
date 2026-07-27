@@ -72,9 +72,9 @@ Ideal for **B2B lead generation, market research, event networking, and competit
 
 ## Supported Ungerboeck Events (Exhibitor Lists)
 
-- The following partial list includes Ungerboeck exhibitor directory URLs that have been tested so far. Other Ungerboeck events or different events with the same website structure may also be supported.
+> The following partial list includes Ungerboeck exhibitor directory URLs that have been tested so far. Other Ungerboeck events or different events with the same website structure may also be supported.
 
-- Some event URLs may have been updated or canceled entirely; please check them before using.
+> Some event URLs may have been updated or canceled entirely; please check them before using.
 
 - [SC26 Chicago Exhibitor List](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=337677594373777a4156615838445849366d7042356245527458414a394c7755685656754c6770492b31773d)
 
